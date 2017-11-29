@@ -1,0 +1,245 @@
+html {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+select {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+input {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button {
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0px;
+	border:1px solid black;
+	color:black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;;
+	line-height:35px;
+	text-decoration:none;
+	text-align:center;
+  font-size: 16px;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+
+.button:disabled {
+  text-decoration: line-through;
+  border:1px solid #a3a3a3;
+	color:#777777;
+}
+
+#page {
+  width: 960px;
+  padding: 0 10px 10px 10px;
+  margin: 0 auto 0 auto;
+}
+
+._940 {
+  width: 940px;
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+
+._620 {
+  width: 620px;
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+
+._460 {
+  width: 460px;
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+  
+._300 {
+  width: 300px;
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+
+._220 {
+  width: 220px;
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+  
+._140 {
+  width: 140px;
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+  
+._60 {
+  width: 60px;
+  margin: 10px 10px 10px 10px;
+  float: left;
+}
+
+#email {
+  width: 300px;
+}
+
+#progressbar {
+  background-color: white;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  border: 1px solid #002147;
+  text-align: center;
+}
+
+#progressbar > div {
+  background-color: #002147;
+  width: 40%; /* Adjust with JavaScript */
+  height: 20px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+#progressbar > div > span {
+  color: #002147; 
+  padding-left: 4px;
+}
+
+#arrow-div {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.continue-bar * {
+  float: right;
+}
+
+.button-area {
+  text-align: center;
+}
+
+.button-area * {
+  display: inline;
+}
+
+.pic {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 413px;
+}
+
+.pic img {
+  position: absolute;
+}
+
+#images {
+  height: 220px;
+}
+
+#picture-placement {
+  height: 413px;
+  border: 1px solid black;
+  margin: 9px 9px 9px 9px;
+  text-align: center;
+}
+
+#picture-placement p {
+  margin: 10px 10px 10px 10px;
+}
+
+#sortable { 
+  cursor: pointer;
+  list-style-type: none;
+  margin: 10px 0 0 0; 
+  padding: 0; 
+}
+
+#sortable li { 
+  margin: 5px 5px 5px 5px; 
+  padding: 5px; 
+  height: 1.5em; 
+  display: inline; 
+  border: 1px solid black;
+}
+
+#scale div {
+  border-top: 1px solid black;
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+}
+
+.top-row {
+  text-align: center;
+}
+
+#ratings span {
+  margin: 0 12px 0 13px;
+  float: right;
+  font-weight: 900;
+}
+
+.ls_input {
+  float: right;
+  margin: 5px 35px 0 35px;
+}
+
+.ls_label {
+  display: inline-block;
+  text-indent: -25px;
+  padding-left: 25px;
+  width: 600px;
+}
+
+.ra_input {
+  float: right;
+  margin: 5px 10px 0 10px;
+}
+
+.ra_label {
+  display: inline-block;
+  text-indent: -25px;
+  padding-left: 25px;
+  width: 600px;
+}
+
+.even {
+  background: #DCDCDC;
+  padding: 10 0 10 0;
+}
+
+.even td {
+  padding: 10 0 10 0;
+}
+
+.odd {
+  padding: 10 0 10 0;
+}
+
+.odd td {
+  padding: 10 0 10 0;
+}
+
+label {
+  font-weight: 100;
+}
+
+th {
+  text-align: left;
+}
